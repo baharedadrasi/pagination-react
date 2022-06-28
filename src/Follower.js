@@ -5,7 +5,7 @@ const Follower = ({ login: name, avatar_url: image, html_url: url }) => {
     <article className="card">
       <img src={image} alt={name} />
       <h4>{name}</h4>
-      <a href={url} className="btn">
+      <a href={url} className="btn" target="blank">
         view profile
       </a>
     </article>
